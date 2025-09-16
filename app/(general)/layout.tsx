@@ -12,7 +12,6 @@ export default function GeneralLayout({
             <main className="flex flex-col items p-24">
             {children}
             </main>
-
             </> 
     );
 }

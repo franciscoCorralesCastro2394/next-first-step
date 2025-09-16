@@ -21,8 +21,7 @@ export const NavBar = () => {
             <div className="flex flex-1"></div>    
             {
                 navItems.map( navItem => (
-                   <ActiveLink key={navItem.path} {...navItem}
-                   />
+                   <ActiveLink key={navItem.path} {...navItem}/>
                 ))    
             }    
         </nav>
